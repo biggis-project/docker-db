@@ -11,7 +11,7 @@ LABEL dbversion="6.0.1"
 LABEL osversion="6.0.1"
 LABEL license="Proprietary"
 LABEL vendor="EXASOL AG"
-                                  
+
 ENV PATH=/usr/opt/EXASuite-6/EXAClusterOS-6.0.1/bin:/usr/opt/EXASuite-6/EXAClusterOS-6.0.1/sbin:/usr/opt/EXASuite-6/EXARuntime-6.0.1/bin:/usr/opt/EXASuite-6/EXARuntime-6.0.1/bin:/usr/opt/EXASuite-6/EXASolution-6.0.1/bin/Console:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ADD EXAClusterOS-6.0.1_LS-DOCKER-CentOS-6.8_x86_64.tar.gz              /
 
